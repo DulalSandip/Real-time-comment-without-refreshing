@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap');
+body {
+    background: whitesmoke;
+    
+    font-family: 'Mulish', sans-serif;
+    
+   
+
+}
+
+.comment_box{
+    list-style-type: none;
+    padding-left: 0;
+    
+}
+h6{
+    font-weight: 800;
+}
+p{
+    font-size: 14px;
+}
+
+
+
+.comment{
+    animation: comment .9s ease forwards;
+}
+
+@keyframes comment{
+    0%{
+        trasnform: translateY(-30px);
+        opacity:0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity:1;
+    }
+}
